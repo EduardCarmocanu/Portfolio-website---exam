@@ -1,0 +1,261 @@
+@media screen and (max-width: 960px) {
+
+	/**/
+	/**/
+	/*ABOUT CSS*/
+	/**/
+	/**/
+	.about-description-container{
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+		margin-top: 3%;
+	}
+	.about-image-container{
+		width: 100%;
+	}
+	.about-image-container img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		margin-top: 0;
+		height: 70%;
+	}
+	/**/
+	/**/
+	/*WORK CSS*/
+	/**/
+	/**/
+	.project-image, .project-details-wrapper{
+		display: block;
+		width: 100%;
+	
+	}
+	.project-details-wrapper{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.project-right .project-details{
+		text-align: center;
+	}
+	.project-image img{
+		width: 100%;
+	}
+
+	/**/
+	/**/
+	/*CONTACT CSS*/
+	/**/
+	/**/
+}	
+@media screen and (max-width: 768px) {
+	/**/
+	/**/
+	/*HOME CSS*/
+	/**/
+	/**/
+	.logo{
+		width: 60%;
+		margin-top: 15%;
+	}
+	.quote{
+		font-size: 1.2em;
+	}
+
+	/**/
+	/**/
+	/*CONTACT CSS*/
+	/**/
+	/**/
+	.name-container, .email-container{
+		display: block;
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 670px) {
+	
+	
+	/**/
+	/**/
+	/*PRE-STYLING CSS*/
+	/**/
+	/**/
+	body{
+		overflow: scroll;
+	}
+	h1 {
+		font-size: 10vw;
+	}
+	h4 {
+		font-size: 1.2vw;
+	}
+
+	label{
+		font-size: 1em;
+	}
+	input{
+		height: 40px;
+	}
+	.master-wrapper{
+		white-space: normal;
+	}
+	.main-wrapper{
+		/*overflow: scroll;*/
+	}
+	.menu-trigger{
+		position: fixed;
+		z-index: 3;
+		padding: 20px;
+	}
+	.mobile-nav{
+		width: 40vw;
+		display: none;
+		height: 100%;
+		z-index: 2;
+	}
+
+
+	
+	.mobile-nav li{
+		/*display: block;*/
+		color: white;
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+		/*-webkit-transition: all 1s ease-in-out;*/
+	}
+	.mobile-nav li a{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.menu-active {
+		background-color: rgb(74,161,145);
+		display: block !important;
+	} 
+	.social-icon a img{
+		width: 30px;
+	}
+	.social-icon {
+		display: inline-block;	
+	}
+	.view{
+		overflow: visible;
+	}
+	/**/
+	/**/
+	/*LANDING CSS*/
+	/**/
+	/**/
+	.landing-view{
+		overflow: visible;
+		padding-bottom: 0;
+		height: 100vh;
+	}
+	.logo{
+		transform: scale(1.1, 1.1);
+		margin-top: 20vh;
+	}
+	.quote{
+		margin-top: 5vh;
+	}
+
+	/**/
+	/**/
+	/*ABOUT CSS*/
+	/**/
+	/**/
+	.about-view-container{
+		overflow-y: hidden;
+	}
+	.about-view{
+		height: 100%;
+	}
+	.about-view{
+		background-image: none;
+	}
+	/**/
+	/**/
+	/*WORK CSS*/
+	/**/
+	/**/
+	.work-view{
+		position: relative;
+		margin-top: 0;
+		overflow: visible;
+		height: 100%;
+	}
+	.work-view{
+		padding: 0 !important;
+	}
+	.projects-container{
+		padding: 0 !important;
+	}
+	.project-details h2 {
+    	margin-top: 20px;
+	}
+	/**/
+	/**/
+	/*CONTACT CSS*/
+	/**/
+	/**/
+	.contact-main-wrapper{
+    	width: 100%;
+	}
+	.contact-view{
+		margin-top: 50px;
+		padding: 0;
+    	height: 100%;
+    	width: 100%;
+    	padding-bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width: 670px)
+			  and (orientation: landscape) {
+
+	/**/
+	/**/
+	/*PRESTYLING*/
+	/**/
+	/**/
+	.social-icon{
+		display: inline-block !important;
+		width: 20% !important;
+		float: left;
+	}
+	/**/
+	/**/
+	/*LANDING CSS*/
+	/**/
+	/**/
+	.landing-view{
+		/*height: 100%;*/
+		height: 100vh;
+	}
+	.logo {
+		transform: scale(0.8, 0.8);
+		margin-top: 0;
+	}
+	.quote{
+		margin-top: 0;
+	}
+
+	/**/
+	/**/
+	/*WORK CSS*/
+	/**/
+	/**/
+	.project-image{
+		height: 60vh;
+	}
+	.landing-view{
+		padding-bottom: 50vh;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	/*...*/
+}
